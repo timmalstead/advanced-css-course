@@ -93,3 +93,12 @@ all units em,vh etc are converted to pixels
 i think that i am going to start declaring a base font size in pixels and then referencing it with rem. it's just easier.
 
 i have conducted an experiment and that does indeed work like that. wouldn't be surprised if i started working with rems for text and ems for lengths, with percentages and vw/vh as needed
+
+## inheritance
+
+each css property has a value, remember that
+if a value in inheritable, check mdn, than the value that gets inherited is the COMPUTED value. so whatever it is for the parent value in absolute terms it will be for the child value
+
+if a value is NOT inheritable, it will default to its initial value
+
+there of course is an `initial` keyword, but I did not know there is an `inherit` keyword. i'm interested to learn how that works.
