@@ -102,3 +102,29 @@ if a value in inheritable, check mdn, than the value that gets inherited is the 
 if a value is NOT inheritable, it will default to its initial value
 
 there of course is an `initial` keyword, but I did not know there is an `inherit` keyword. i'm interested to learn how that works.
+
+## px to rem workflow`
+
+we want to change px to rem to have a simple way to change settings on the page
+
+root font size is set in the html selector
+
+you can set it as a percentage in the html tag and base your rems off of that. the absolute value it is referencing is the USER style sheet. Most don't mess with this but some, like those with eyesight issues for example, may change this and in that case your rems will take that into account.
+
+## visual formatting model
+
+after the cascade and computed values, after the dom and cssom have been combined, we have the final stage of the rendering process
+
+css will calculate all the boxes, z indexes, computed values and all of that good stuff and layout your pages
+
+worth remembering that `box-sizing: border-box;` is meant to have the total `width` and `height` you set include the padding and border, not just the content.
+
+reference the block, inline-block and inline differences frequently. that's something that is so foundational you really should know it without thinking.
+
+here's an interesting fact about stacking elements that I did not know: elements below, on a z index for example, are painted before those higher ups
+
+## architechture, components, BEM
+
+Okay, mostly see the sliders for this one
+
+I don't know how I feel about BEM. It seems like a lot of trouble. Could be worth it?
