@@ -76,3 +76,9 @@ That's fine. and if you need to do on block of code for a lot of selectors, i su
 i command you to use the command line, because it's dope
 
 ## sass and npm
+
+make sure node is all installed well, and npm i node-sass as a dev dependency
+
+execute node-sass like this: node-sass ./sass/main.scss ./css/style.css -w
+
+## auto reload
