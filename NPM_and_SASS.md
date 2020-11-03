@@ -82,3 +82,5 @@ make sure node is all installed well, and npm i node-sass as a dev dependency
 execute node-sass like this: node-sass ./sass/main.scss ./css/style.css -w
 
 ## auto reload
+
+use the live-server package. it's a good option for static html/css/js
