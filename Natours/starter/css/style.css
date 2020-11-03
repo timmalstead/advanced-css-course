@@ -15,7 +15,7 @@ Dark green: #28b485
   margin: 0;
   padding: 0;
   box-sizing: inherit;
-  /* not certain why, but box-sizing is move to inherit now. so i think that is saying everything BELOW body inherits that behavior. I think this is easier to work with, he says, with plugins for example. hmmm.
+  /* not certain why, but box-sizing is moved to inherit now. so i think that is saying everything BELOW body inherits that behavior. I think this is easier to work with, he says, with plugins for example. hmmm.
   Also we added the reset to before and after pseudo elements
   */
 }
