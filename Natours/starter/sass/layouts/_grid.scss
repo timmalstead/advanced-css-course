@@ -1,6 +1,5 @@
 .row {
   max-width: $grid-width;
-  background-color: #ffffff;
   margin: 0 auto;
 
   &:not(:last-child) {
@@ -12,7 +11,6 @@
   // okay, using a regular expression with class to target something that begins with a specific value. that's cool
 
   [class^="col-"] {
-    background-color: #cdcdcd;
     float: left;
 
     &:not(:last-child) {
