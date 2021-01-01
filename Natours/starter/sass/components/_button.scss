@@ -4,6 +4,7 @@
     animation-fill-mode: backwards;
   }
 
+  &,
   &:link,
   &:visited {
     text-transform: uppercase;
@@ -14,6 +15,8 @@
     transition: all 0.2s linear;
     position: relative;
     font-size: $default-font-size;
+    border: none;
+    cursor: pointer;
   }
 
   &:hover {
@@ -26,7 +29,9 @@
     }
   }
 
-  &:active {
+  &:active,
+  &:focus {
+    outline: none;
     transform: translateY(0.1rem);
     box-shadow: 0 0.5rem 0.5rem rgba($color-black, 0.247);
   }
